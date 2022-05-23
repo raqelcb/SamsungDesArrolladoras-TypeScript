@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple steps.
     ````
 3. Execute
     ```sh
-    node main.js
+    node built/main.js
     ```
 
 <br>

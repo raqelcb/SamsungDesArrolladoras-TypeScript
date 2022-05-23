@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const person_1 = require("./person");
-const address_1 = require("./address");
-const mail_1 = require("./mail");
-const phone_1 = require("./phone");
+const person_1 = require("./classes/person");
+const address_1 = require("./classes/address");
+const mail_1 = require("./classes/mail");
+const phone_1 = require("./classes/phone");
 function buildAgenda() {
     let agenda = [];
     const addressPerson0 = new address_1.Address('Calle Antonio Vázquez', 60, 1, 'A', 38700, 'Santa Cruz', 'La Palma');

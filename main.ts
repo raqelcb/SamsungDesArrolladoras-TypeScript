@@ -1,7 +1,7 @@
-import { Person } from './person';
-import { Address } from './address';
-import { Mail } from './mail';
-import { Phone } from './phone';
+import { Person } from './classes/person';
+import { Address } from './classes/address';
+import { Mail } from './classes/mail';
+import { Phone } from './classes/phone';
 
 function buildAgenda(): Array<Person> {
 	let agenda: Array<Person> = [];
