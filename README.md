@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    The purpose of this project is to code the C library that has commonly used functions. It will be available in all other projects.
+    The purpose of this project is to create classes to store the logic of an address book with the personal data of individuals: addresses, phone numbers, e-mails... Each class must be created in a different TypeScript file.
     <br />
     <a style="color:#874EA0" href="https://github.com/raqelcb/SamsungDesArrolladoras-TypeScript/blob/main/EnunciadoTypeScript.pdf"><strong>Explore the subject »</strong></a>
     <br />
@@ -36,7 +36,7 @@
     <li>
       <a style="color:#874EA0" href="#about-the-project">About The Project</a>
       <ul>
-        <li><a style="color:#874EA0" href="#parts-of-the-project">Parts of the project</a></li>
+        <!-- <li><a style="color:#874EA0" href="#parts-of-the-project">Parts of the project</a></li> -->
         <li><a style="color:#874EA0" href="#list-of-rules">List of rules</a></li>
       </ul>
     </li>
@@ -54,12 +54,12 @@
 
 Se propone realizar unas clases para almacenar la lógica de una agenda con los datos personales de los individuos: direcciones, teléfonos, mails… Cada clase ha de crearse en un archivo TypeScript diferente.
 `SamsungDesarrolladoras`, `TypeScript`
-<br>
+<!-- <br>
 
 ### Parts of the project
 
 * [X] **Rules:** xxxx
-* [X] **Checker:** xxxx
+* [X] **Checker:** xxxx -->
 
 <br>
 
@@ -84,6 +84,14 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/raqelcb/SamsungDesarrolladoras-TypeScript.git
    ```
+2. Compile without the flags to create the `built` folder
+    ```sh
+    tsc
+    ````
+3. Execute
+    ```sh
+    node main.js
+    ```
 
 <br>
 
